@@ -1,0 +1,39 @@
+<div class="student-details border">
+  <h2>Student Details</h2>
+  <div *ngFor="let student of students">
+    <p>ID: <input [(ngModel)]=student.id> NAME: <input [(ngModel)]=student.name> Email:<input [(ngModel)]=student.emailId></p>
+  </div>
+</div>
+
+<div class="student-details">
+  <label for="studentId">Enter Student ID:</label>
+  <input type="number" id="studentId" name="studentId" [(ngModel)]="getId.id">
+  <button (click)="getById(getId.id)">Get Student</button>
+  <div *ngIf="getId.id !== 0">
+    <p>ID: {{ getId.id }}</p>
+    <p>Name: {{ getId.name }}</p>
+    <p>Email: {{ getId.emailId }}</p>
+  </div>
+</div>
+
+<div class="save-student">
+  <h2>Add New Student</h2>
+  <input [(ngModel)]="newStudent.id" placeholder="Enter student ID">
+  <input [(ngModel)]="newStudent.name" placeholder="Enter student name">
+  <input [(ngModel)]="newStudent.emailId" placeholder="Enter student Email">
+  <button (click)="saveStudent()">Save</button>
+</div>
+
+<div class="delete-student">
+  <h2>Delete Student</h2>
+  <input [(ngModel)]="remove.id" placeholder="Enter student ID">
+  <button (click)="deleteStudent()">Delete student</button>
+</div>
+
+<div class="update-student">
+  <h2>Update Student</h2>
+  <input [(ngModel)]="updateNewStudent.id" placeholder="Enter student ID">
+  <input [(ngModel)]="updateNewStudent.name" placeholder="Enter student name">
+  <input [(ngModel)]="updateNewStudent.emailId" placeholder="Enter student Email">
+  <button (click)="updateStudent()">Update student</button>
+</div>

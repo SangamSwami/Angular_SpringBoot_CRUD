@@ -1,0 +1,120 @@
+
+.student-details {
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f0f8ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .student-details h2 {
+    margin-bottom: 10px;
+    color: #4CAF50;
+    font-size: 1.2rem;
+  }
+  
+  .student-details p {
+    margin-bottom: 5px;
+  }
+  
+  .student-details input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .save-student {
+    margin-bottom: 20px;
+  }
+  
+  .save-student h2 {
+    margin-bottom: 10px;
+    color: #007BFF;
+    font-size: 1.2rem;
+  }
+  
+.save-student input {
+    padding: 8px;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+.save-student button {
+    padding: 8px 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.save-student button:hover {
+    background-color: #0056b3;
+  }
+  
+.delete-student {
+    margin-bottom: 20px;
+  }
+  
+.delete-student h2 {
+    margin-bottom: 10px;
+    color: #DC3545;
+    font-size: 1.2rem;
+}
+  
+.delete-student input {
+    padding: 8px;
+    border: 1px solid #DC3545;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+  .delete-student button {
+    padding: 8px 16px;
+    background-color: #DC3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+.delete-student button:hover {
+    background-color: #c82333;
+  }
+  
+
+  .update-student {
+    margin-bottom: 20px;
+  }
+  
+  .update-student h2 {
+    margin-bottom: 10px;
+    color: #FFC107;
+    font-size: 1.2rem;
+  }
+  
+  .update-student input {
+    padding: 8px;
+    border: 1px solid #FFC107;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .update-student button {
+    padding: 8px 16px;
+    background-color: #FFC107;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+.update-student button:hover {
+    background-color: #d39e00;
+  }
+  
